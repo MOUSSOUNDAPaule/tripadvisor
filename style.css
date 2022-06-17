@@ -1,0 +1,232 @@
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+*{
+    font-family: century;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    margin-left: 40px;
+    
+}
+#liens{
+    font-size: 150%;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+a{   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+li{
+    text-decoration: none;
+}
+#recherche{
+    top: 105px;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-image: url(Capture.JPG);
+
+}
+#bar{
+    padding-top: 15vh;
+    max-width: 760px;
+    min-width: 400px;
+    width: 47%;
+    position: relative;
+    margin: 0 auto;
+}
+.c012 {
+    height: 44px;
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+}
+.c0111 {
+    min-width: 0;
+}
+.c012 {
+    height: 44px;
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+}
+.c0124 {
+    width: 100%;
+    border: transparent;
+    height: 44px;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+.c0112 {
+    margin: 0;
+    display: flex;
+    position: relative;
+    min-width: 92px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    flex-direction: row;
+    
+}
+.c018 {
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 0.3px 0.9px rgb(0 0 0 / 12%), 0px 1.6px 3.6px rgb(0 0 0 / 12%);
+    transition: all 0.2s ease-in-out;
+    flex-direction: row;
+    border-radius: 4px;
+}
+#head1{
+    margin-top: 450px;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-image: url(captio.jpg);
+    padding-top: 300px;
+    background-position: center;
+    color: white;
+
+}
+h1{
+    margin-left: 50px;
+}
+h3{
+    margin-left: 50px;
+}
+.uk{
+    margin-top: 950px;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color:rgb(214, 208, 208); 
+    display: flex;
+    padding-top: 40px;
+}
+.dra{
+    position:absolute;
+    height: 200px;
+    width: 600px;
+    padding-top: 40px;
+    padding-left: 200px;
+    
+   
+}
+#bleu{
+     background-color: blue;
+     height: 100px;
+     width: 300px;
+}
+#jaune{
+    background-color: yellow;
+    height: 100px;
+    width: 300px;
+}
+#tex{
+    padding-top: 30px;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    right: 70px;
+    text-align: center;
+    
+}
+#gallery{
+    margin-top: 1350px;
+    position: absolute;
+    height: 300px;
+    width: 100%; 
+    display: flex;
+    padding-top: 40px;
+}
+.pto{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+#pto1{
+    display: block;
+    width: 280px;
+    background-image: url(marseille.jpg);
+    height: 260px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    background-size: cover;
+    background-position: center;
+    
+}
+#pto2{
+    display: block;
+    width: 280px;
+    background-image: url(seville.jpg);
+    height: 260px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    background-size: cover;
+    background-position: center;
+    
+}
+#pto3{
+    display: block;
+    width: 280px;
+    background-image: url(caption.jpg);
+    height: 260px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    background-size: cover;
+    background-position: center;
+    
+}
+#pto4{
+    display: block;
+    width: 280px;
+    background-image: url(beautiful-bent-tree-along.jpg);
+    height: 260px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#gagn{
+    margin-top: 1750px;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color:#014f41; 
+    display: flex;
+    padding-top: 20px;
+}
+#footer_div2{
+    margin-top: 2150px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+    
+    
+    }
+    
+    footer ul li{
+        list-style-type: none;
+        padding: 1,5px;
+    
+    }
+   
