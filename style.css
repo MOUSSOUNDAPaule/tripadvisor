@@ -1,41 +1,44 @@
-header{
+header {
     height: 100px;
     width: 100%;
     display: flex;
-
 }
-*{
+
+* {
     font-family: century;
     margin: 0px;
     padding: 0px;
 }
-#logo{
+
+#logo {
     margin-left: 40px;
-    
 }
-#liens{
+
+#liens {
     font-size: 150%;
     margin-left: 40px;
     margin-top: 20px;
-    
 }
-a{   
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
     color: black;
 }
-li{
+
+li {
     text-decoration: none;
 }
-#recherche{
-    top: 105px;
-    position: absolute;
+
+#recherche {
     height: 400px;
     width: 100%;
-    background-image: url(Capture.JPG);
-
+    background-image: url(https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#bar{
+
+#bar {
     padding-top: 15vh;
     max-width: 760px;
     min-width: 400px;
@@ -43,28 +46,33 @@ li{
     position: relative;
     margin: 0 auto;
 }
+
 .c012 {
     height: 44px;
     opacity: 1;
     position: relative;
     visibility: visible;
 }
+
 .c0111 {
     min-width: 0;
 }
+
 .c012 {
     height: 44px;
     opacity: 1;
     position: relative;
     visibility: visible;
 }
+
 .c0124 {
     width: 100%;
     border: transparent;
     height: 44px;
     border-radius: 4px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
+
 .c0112 {
     margin: 0;
     display: flex;
@@ -73,8 +81,8 @@ li{
     box-sizing: border-box;
     transition: all 0.2s ease-in-out;
     flex-direction: row;
-    
 }
+
 .c018 {
     margin: 0;
     display: flex;
@@ -84,7 +92,8 @@ li{
     flex-direction: row;
     border-radius: 4px;
 }
-#head1{
+
+#head1 {
     margin-top: 450px;
     position: absolute;
     height: 150px;
@@ -93,66 +102,72 @@ li{
     padding-top: 300px;
     background-position: center;
     color: white;
+}
 
-}
-h1{
+h1 {
     margin-left: 50px;
 }
-h3{
+
+h3 {
     margin-left: 50px;
 }
-.uk{
+
+.uk {
     margin-top: 950px;
     position: absolute;
     height: 300px;
     width: 100%;
-    background-color:rgb(214, 208, 208); 
+    background-color: rgb(214, 208, 208);
     display: flex;
     padding-top: 40px;
 }
-.dra{
-    position:absolute;
+
+.dra {
+    position: absolute;
     height: 200px;
     width: 600px;
     padding-top: 40px;
     padding-left: 200px;
-    
-   
 }
-#bleu{
-     background-color: blue;
-     height: 100px;
-     width: 300px;
+
+#bleu {
+    background-color: blue;
+    height: 100px;
+    width: 300px;
 }
-#jaune{
+
+#jaune {
     background-color: yellow;
     height: 100px;
     width: 300px;
 }
-#tex{
+
+#tex {
     padding-top: 30px;
     height: 200px;
     width: 450px;
     position: absolute;
     right: 70px;
     text-align: center;
-    
 }
-#gallery{
+
+#gallery {
     margin-top: 1350px;
     position: absolute;
     height: 300px;
-    width: 100%; 
+    width: 100%;
     display: flex;
     padding-top: 40px;
 }
-.pto{
+
+.pto {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
 }
-#pto1{
+
+#pto1 {
     display: block;
     width: 280px;
     background-image: url(marseille.jpg);
@@ -163,9 +178,9 @@ h3{
     color: #bdb8d7;
     background-size: cover;
     background-position: center;
-    
 }
-#pto2{
+
+#pto2 {
     display: block;
     width: 280px;
     background-image: url(seville.jpg);
@@ -176,9 +191,9 @@ h3{
     color: #bdb8d7;
     background-size: cover;
     background-position: center;
-    
 }
-#pto3{
+
+#pto3 {
     display: block;
     width: 280px;
     background-image: url(caption.jpg);
@@ -189,9 +204,9 @@ h3{
     color: #bdb8d7;
     background-size: cover;
     background-position: center;
-    
 }
-#pto4{
+
+#pto4 {
     display: block;
     width: 280px;
     background-image: url(beautiful-bent-tree-along.jpg);
@@ -202,31 +217,109 @@ h3{
     color: #bdb8d7;
     background-size: cover;
     background-position: center;
-    
 }
 
-#gagn{
+#gagn {
     margin-top: 1750px;
     position: absolute;
     height: 300px;
     width: 100%;
-    background-color:#014f41; 
+    background-color: #014f41;
     display: flex;
     padding-top: 20px;
 }
-#footer_div2{
+
+#footer_div2 {
     margin-top: 2150px;
     position: absolute;
     display: flex;
     justify-content: space-around;
     padding-top: 45px;
-    
-    
-    }
-    
-    footer ul li{
-        list-style-type: none;
-        padding: 1,5px;
-    
-    }
-   
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 1, 5px;
+}
+
+
+/* ****************************************************************************************** */
+
+.soutenez-action {
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+    width: 90%;
+    margin: 50px auto;
+    background-color: #f2f1ec;
+    height: 500px;
+    text-align: center;
+}
+
+.soutenez-action img {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.soutenez-action-droite {
+    padding: 10px 35px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.soutenez-action-droite p {
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.soutenez-action-droite h2 {
+    margin-top: 20px;
+}
+
+.soutenez-action-droite button {
+    padding: 10px 15px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.experiences h2 {
+    margin-left: 40px;
+}
+
+.grille-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2px;
+    padding: 0px 40px;
+    margin-top: 30px;
+}
+
+.grille-images p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.grille-images img {
+    width: 300px;
+}
+
+.grille-images button {
+    padding: 2px 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid black;
+}
