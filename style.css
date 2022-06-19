@@ -32,7 +32,9 @@ li {
 
 #recherche {
     height: 400px;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
     background-image: url(https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,8 +232,7 @@ h3 {
 }
 
 #footer_div2 {
-    margin-top: 2150px;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: space-around;
     padding-top: 45px;
@@ -322,4 +323,154 @@ footer ul li {
     -o-border-radius: 8px;
     background-color: #fff;
     border: 1px solid black;
+}
+
+.marseille {
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f7/4a/marseille.jpg?w=600&h=600&s=1);
+    background-size: contain;
+    height: 220px;
+    position: relative;
+}
+
+.paris {
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/7c/68/caption.jpg?w=800);
+    background-size: contain;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+.seville {
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f7/95/seville.jpg?w=600&h=600&s=1);
+    background-size: contain;
+    position: relative;
+}
+
+.naples {
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/e4/f4/e5/beautiful-bent-tree-along.jpg?w=600&h=600&s=1);
+    background-size: cover;
+    position: relative;
+}
+
+.deuxieme img {
+    /* width: 50px; */
+    column-gap: 10px !important;
+}
+
+.deuxieme h2 {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+}
+
+.cadre {
+    display: flex;
+    justify-content: space-around;
+    background-color: #014f41;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-travellers {
+    width: 80px;
+    position: relative;
+    left: 100px;
+}
+
+.cadre h2 {
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.travellers {
+    padding-top: 30px;
+}
+
+.winners {
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    left: 60px;
+}
+
+.evadez {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    padding: 10px 15px;
+    margin: 50px 40px;
+}
+
+.text-evadez {
+    /* height: 100px; */
+    background-color: #faf1ed;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+/* .evadez img {
+    width: 300px;
+} */
+
+.img-evadez {
+    /* height: 400px; */
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/f7/1d/4d/caption.jpg?w=1000&h=-1&s=1);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.evadez h2 {
+    margin-top: 30px;
+}
+
+.evadez button {
+    margin-top: 30px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.under-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.under-header button {
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 80px;
+    font-weight: bold;
+    margin-right: 5px;
 }
