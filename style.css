@@ -34,6 +34,21 @@ header button {
     font-size: 20px;
 }
 
+.under-header button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.under-header button span {
+    font-size: 18px;
+}
+
+.under-header button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 * {
     font-family: century;
     margin: 0px;
